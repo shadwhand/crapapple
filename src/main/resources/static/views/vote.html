@@ -19,7 +19,7 @@
 <div>
 
 <div class="button-pair sticky sticky--footer">
-<button class="button-pair__button button button--primary" style="height: 66px; padding-top: 15px;"><img width="30px" src="..\images\thumbs-up.png"  /></button>
-<button class="button-pair__button button button--secondary" style="height: 66px; padding-top: 15px;"><img width="30px" src="..\images\thumbs-down.png" /></button>
+<button ng-click="disableButton" ng-class="buttonEnabled ? button--disabled" class="button-pair__button button button--primary" style="height: 66px; padding-top: 15px;" ng-class="buttonEnabled ? button--disabled"><img width="30px" src="..\images\thumbs-up.png"  /></button>
+<button ng-click="disableButton" class="button-pair__button button button--secondary" style="height: 66px; padding-top: 15px;"><img width="30px" src="..\images\thumbs-down.png" /></button>
 </div>
 
