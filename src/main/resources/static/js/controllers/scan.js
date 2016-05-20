@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('[appName]App')
-  .controller('ScanCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+angular.module('ifday')
+  .controller('ScanCtrl', function ($scope, $location) {
+    $scope.loadProduct = function(){
+		$location.url("/#/upload");
+    };
+
+    $scope.title = "Scan Page";
   });

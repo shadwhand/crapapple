@@ -3,9 +3,9 @@
 <div class="">
   <div class="title-bar title-bar--border bg--wh">
    
-    <h1 class="title-bar__title">Scan Page</h1>
+    <h1 class="title-bar__title">{{title}}</h1>
  <div class="title-bar__action-area title-bar__action-area--right">
-            <a class="title-bar__button title-bar__button--left button button--flat" href="/scan">
+            <a class="title-bar__button title-bar__button--right button button--flat" href="/#/history">
              <i class="title-bar__button-icon title-bar__button-icon--right button__icon i i--time "></i>
             </a>
     </div>
@@ -17,7 +17,7 @@
     <label class="form-field__label" for="input_1">ISBN</label>
 </div>
 
-<div class="i i--scan-big i--b1" style="margin: 0 auto; text-align:center; font-size:50px"></div>
+<div class="i i--scan-big i--b1" style="margin: 0 auto; text-align:center; font-size:50px; cursor:pointer;" ng-click="loadProduct"></div>
 </div>
 
 

@@ -1,4 +1,4 @@
-angular.module('hello', [ 'ngRoute' ]).config(function($routeProvider, $httpProvider) {
+angular.module('ifday', [ 'ngRoute' ]).config(function($routeProvider, $httpProvider) {
 
 	$routeProvider.when('/', {
 		templateUrl : 'home.html',
@@ -23,6 +23,10 @@ angular.module('hello', [ 'ngRoute' ]).config(function($routeProvider, $httpProv
 	}).when('/vote', {
 		templateUrl : 'views/vote.html',
 		controller : 'VoteCtrl',
+		controllerAs: 'controller'
+	}).when('/history', {
+		templateUrl : 'views/history.html',
+		controller : 'HistoryCtrl',
 		controllerAs: 'controller'
 	}).otherwise('/');
 
