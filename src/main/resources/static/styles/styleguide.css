@@ -1,0 +1,3352 @@
+/*
+  NEAT SETUP
+*/
+/*
+  OUR VARIABLES
+*/
+/*
+  CUSTOM VARIABLES
+
+  stored in alphabetical order based on section
+
+  INDEX:
+  -Colors
+  -Fonts
+  -Icons
+  -Spacing
+*/
+/*Colors---------------*/
+/*Fonts----------------*/
+/*Icons----------------*/
+/*Spacing----------------*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background: transparent; }
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre-wrap; }
+
+/**
+ * Set consistent quote types.
+ */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*
+* Do not use to set text size. Only use this to GET text size in order
+* to set other values in shared mixins such as padding for buttons.
+*/
+/*
+* Use THIS to set text size
+*/
+/*
+    Base layer (before including modules)
+*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-family: Helvetica Neue, Helvetica, Microsoft Sans Serif, Arial, sans-serif;
+  color: #303336;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5; }
+
+a {
+  color: #008fc6;
+  text-decoration: none; }
+
+a[disabled='disabled'] {
+  pointer-events: none;
+  cursor: default; }
+
+/*
+    Typography
+*/
+h1, .alpha {
+  color: #575c60;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.25; }
+  @media screen and (min-width: 481px) {
+    h1, .alpha {
+      color: #575c60;
+      font-size: 30px;
+      font-weight: 200;
+      line-height: 1.25; } }
+
+h2, .beta {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25; }
+  @media screen and (min-width: 481px) {
+    h2, .beta {
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 1.25; } }
+
+.gamma {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.25; }
+
+h3, .delta {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.3; }
+
+h4, .epsilon {
+  font-size: 20px;
+  font-weight: light;
+  line-height: 1.3; }
+
+.body-alpha {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5; }
+
+.body-beta {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5; }
+
+.body-gamma {
+  color: #575c60;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5; }
+
+.body-delta {
+  color: #949a9e;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.5; }
+  @media screen and (min-width: 481px) {
+    .body-delta {
+      color: #949a9e;
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 1.5; } }
+
+.kilo {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.1; }
+
+/*
+    Tables
+*/
+table {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%; }
+  table td, table th {
+    padding: 8px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  table th {
+    padding-top: 0;
+    color: #575c60;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5; }
+  table tbody tr {
+    border-top: 1px solid #d4d6d8;
+    background-color: white; }
+  table tr:last td {
+    border-bottom: none; }
+  table tfoot td {
+    padding: 0px; }
+
+/*
+    Forms
+*/
+input {
+  color: #303336; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none; }
+
+input[type=number] {
+  -moz-appearance: textfield; }
+
+form fieldset {
+  border: none;
+  margin: 16px 0 0 0;
+  padding: 0; }
+  form fieldset legend {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center; }
+    @media screen and (min-width: 481px) {
+      form fieldset legend {
+        text-align: left; } }
+
+/*
+    Lists
+*/
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+dd {
+  margin: 0; }
+
+dl {
+  margin: 0; }
+
+/*doc
+---
+title: Color Functions
+name: color-functions
+category: Style-Mixin
+---
+
+There are two color functions available for manipulating colors: `tint` and `shade`.
+
+`tint` adds white to the original color, producing a lighter color. `shade` adds black, producing a darker color.
+
+They expect two parameters - a color and a percent which the original color should be tinted or shaded. This percent value ranges from 0 to 100.
+These can be used alongside `brand-color`.
+
+
+Examples:
+
+- `background-color: shade(brand-color(gn1), 30);`
+- `background-color: tint(brand-color(b1), 20);`
+
+
+### Tints and Shades in Use:
+Color                                             | Tinted/Shaded                                             | CSS                                                         | Usage
+------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------
+<div class="color-sample gn1">gn1</div>           | <div class="color-sample gn1-shade"></div>                | `shade(brand-color(gn1), 15);`    | Active state
+<div class="color-sample b1">b1</div>             | <div class="color-sample b1-shade"></div>                 | `shade(brand-color(b1), 15);`     | Active state
+<div class="color-sample y1">y1</div>             | <div class="color-sample y1-tint"></div>                  | `tint(brand-color(y1), 40);`      | Messaging (color blocks)
+<div class="color-sample r1">r1</div>             | <div class="color-sample r1-tint"></div>                  | `tint(brand-color(r1), 40);`      | Errors (color blocks)
+*/
+/*doc
+---
+title: Colors
+name: colors
+category: Style-Mixin
+---
+
+
+Below are the colors available for all In-Store applications. Developers **should
+never** specify color via its hex value. All colors used should be called
+using the `brand-color` function.
+
+Use the `brand-color` function with the color identifier (case-insensitive)
+
+
+Examples
+
+- `color: brand-color(gn1);`
+- `color: brand-color(GN1);`
+
+
+### Full list of colors
+Color                                         | HEX         | CSS                                    | Usage
+--------------------------------------------- | ----------- | -------------------------------------- | ----------------
+<div class="color-sample gn1">gn1</div>       | #16a816     | `background-color: brand-color(gn1);`  | Transactional actions, Success
+<div class="color-sample b1">b1</div>         | #0466ca     | `background-color: brand-color(b1);`   | Other actions, Text links, UI elements
+<div class="color-sample y1">y1</div>         | #f0b00b     | `background-color: brand-color(y1);`   | Warning
+<div class="color-sample r1">r1</div>         | #d00000     | `background-color: brand-color(r1);`   | Special Pricing (text), Errors (borders)
+<div class="color-sample g1">g1</div>         | #333333     | `background-color: brand-color(g1);`   | Headlines and body copy
+<div class="color-sample g2">g2</div>         | #666666     | `background-color: brand-color(g2);`   | Secondary copy
+<div class="color-sample g3">g3</div>         | #999999     | `background-color: brand-color(g3);`   | UI text and UI icons
+<div class="color-sample g4">g4</div>         | #cccccc     | `background-color: brand-color(g4);`   | Form labels, dividers
+<div class="color-sample g5">g5</div>         | #f2f2f2     | `background-color: brand-color(g5);`   | Container background
+<div class="color-sample wh">wh</div>         | #ffffff     | `background-color: brand-color(wh);`   | Container backgrounds, Button labels
+<div class="color-sample tr">tr</div>         | transparent | `background-color: brand-color(tr);`   | Flat Button Background
+
+*/
+/*doc
+---
+title: Font-Faces
+name: font-faces
+category: Style-Mixin
+---
+
+Gap In-Store Style guide uses San Francisco Fonts (SF UI).
+The full set can be downloaded from the Apple site [here](https://developer.apple.com/services-account/download?path=/iOS/San_Francisco_Fonts/SFUI.zip).
+You will need a developer account to be able to do so.
+
+### Fonts Available to In-Store
+Font                                                                         | font-family            | CSS                                   | Font-Size Usage
+---------------------------------------------------------------------------- | ---------------------- | ------------------------------------- | ---------------
+<div style="font-family: 'sf_ui_displaylight';">SF UI Display Light</div>    | sf\_ui_displaylight    | `font-family: sf_ui_displaylight;`    | 20px, 28px
+<div style="font-family: 'sf_ui_displaymedium';">SF UI Display Medium</div>  | sf\_ui_displaymedium   | `font-family: sf_ui_displaymedium;`   | 20px, 28px
+<div style="font-family: 'sf_ui_textregular';">SF UI Text Regular</div>      | sf\_ui_textregular     | `font-family: sf_ui_textregular;`     | 12px, 14px, 16px, 18px
+<div style="font-family: 'sf_ui_textmedium';">SF UI Text Medium</div>        | sf\_ui_textmedium      | `font-family: sf_ui_textmedium;`      | 12px, 14px, 16px, 18px
+
+
+To add more fonts to the font-face collection:
+
+ 1. Upload the font to fontsquirrel generator to be able to generate all font types [here](https://www.fontsquirrel.com/tools/webfont-generator).
+ 2. Copy the font-face css provided in stylesheet.css and add them to this file
+ 3. Adjust to url relative to the doc_assets folder
+ 4. Upload all the fonts generated scss>fonts folder
+
+
+*/
+@font-face {
+  font-family: 'sf_ui_displaylight';
+  src: url(bf6a2091a6a673d0e5c427b4cd4048c8.eot);
+  src: url(bf6a2091a6a673d0e5c427b4cd4048c8.eot?#iefix) format("embedded-opentype"), url(87629bbc9c8348f6d447d1f8988090af.woff2) format("woff2"), url(ffd39809d8a976ef3fad59b5922412cf.woff) format("woff"), url(14a80aaa3f11bb6001ac696c500bb64f.ttf) format("truetype"), url(9aee21990b1068e164cf636c394cd5df.svg#sf_ui_displaylight) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'sf_ui_displaymedium';
+  src: url(8fc5fc625033ed0dea963f14de7a2122.eot);
+  src: url(8fc5fc625033ed0dea963f14de7a2122.eot?#iefix) format("embedded-opentype"), url(68ef33d5613feda35d829a3c3237d05d.woff2) format("woff2"), url(82daa77ca4b89e7c265462fc596a6171.woff) format("woff"), url(34a30e6943b683f2b7f4011f9b517c89.ttf) format("truetype"), url(601d801c5b02b0fd6b28fed9a57ee2be.svg#sf_ui_displaymedium) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'sf_ui_textmedium';
+  src: url(c55e2ed37b6b3f789181587f09525381.eot);
+  src: url(c55e2ed37b6b3f789181587f09525381.eot?#iefix) format("embedded-opentype"), url(306333fdf55cff70e2c6cbdaded79ca4.woff2) format("woff2"), url(065e1243c9fabf6fa47d5a8db10e2783.woff) format("woff"), url(5b5f46aec004302ec436466c2883d251.ttf) format("truetype"), url(a18e7bc0a20202b4f74a5863691e710e.svg#sf_ui_textmedium) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'sf_ui_textregular';
+  src: url(b28d71edb2342f01757a6afbee858329.eot);
+  src: url(b28d71edb2342f01757a6afbee858329.eot?#iefix) format("embedded-opentype"), url(b226575434cc2046ea3bf24ad18d7942.woff2) format("woff2"), url(ce3b319e996b3d2a1a02622d81a41f65.woff) format("woff"), url(1f9083d1756a5271ee919304f82f5d27.ttf) format("truetype"), url(dc18105e7a155d9886a83b7070e2a964.svg#sf_ui_textregular) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*doc
+---
+title: Font Mixins
+name: font-mixins
+category: Style-Mixin
+---
+
+### Fonts Mixins
+Font Mixin                                                   | CSS                         | Usage
+------------------------------------------------------------ | --------------------------- | --------------------------------
+<div class="font--display-1">Display 1</div>                  | `@include font-display-1`   | Message title
+<div class="font--display-2">Display 2</div>                  | `@include font-display-2`   | Message title
+<div class="font--headline-1">Headline 1</div>                | `@include font-headline-1`  | Application title bar
+<div class="font--headline-2">Headline 2</div>                | `@include font-headline-2`  | Messaging feedback, message copy
+<div class="font--body-1">Body 1</div>                        | `@include font-body-1`      | Body Copy, Form input, Quantities, List items (Product Name, Summary value)
+<div class="font--body-2">Body 2</div>                        | `@include font-body-2`      | Product SKU, Summary label, Ghost Text, Form labels, Titlebar navigation links
+<div class="font--label-1">Label 1</div>                      | `@include font-label-1`     | Mini form input text
+<div class="font--label-2">Label 2</div>                      | `@include font-label-1`     | Form labels
+<div class="font--note-1">Note 1</div>                        | `@include font-note-1`      | Icon links, modal messaging body
+<div class="font--button-label-1">Button Label 1</div>        | `@include font-display-1`   | Button labels
+<div class="font--button-label-2">Button Label 2</div>        | `@include button-label-1`   | Flat button labels, Nav menu items
+<div class="font--link-1">Link 1</div>                        | `@include button-label-2`   | Inline links
+
+
+The following properties are handled through the mixin. Don't set these properties outside of a font system mixin:
+
+- color
+- font-family
+- font-size
+- font-weight
+- letter-spacing
+- line-height
+- text-decoration
+- text-transform
+
+**All font usage use the font class mixins**. If that font style is not available a new font class will need to be made. This may require a discussion with the UX team.
+
+###Usage
+The font-body-1 can be used with no arguments:
+
+```
+.foo{
+  @include font-body-1();
+}
+```
+
+If arguments are not provided, color and line-height fields will use default values, that are g1 and 1.25, respectivelly.
+
+Also, the font-body-1 can be used with arguments:
+
+```
+.foo{
+  @include font-body-1(g4, 1.50);
+}
+```
+
+Then, in this case the color receives g4 and line-height receives 1.50.
+
+Backup font-family after San Francisco font is: 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif
+
+*/
+/*doc
+---
+title: Font Classes
+name: font-classes
+category: Style-Mixin
+---
+
+### Fonts Styles
+Font Classes                                                 | CSS                | Usage
+------------------------------------------------------------ | ------------------ | --------------------------------
+<div class="font--display-1">Display 1</div>                  | `font-display-1`   | Message title
+<div class="font--display-2">Display 2</div>                  | `font-display-2`   | Message title
+<div class="font--headline-1">Headline 1</div>                | `font-headline-1`  | Application title bar
+<div class="font--headline-2">Headline 2</div>                | `font-headline-2`  | Messaging feedback, message copy
+<div class="font--body-1">Body 1</div>                        | `font-body-1`      | Body Copy, Form input, Quantities, List items (Product Name, Summary value)
+<div class="font--body-2">Body 2</div>                        | `font-body-2`      | Product SKU, Summary label, Ghost Text, Form labels, Titlebar navigation links
+<div class="font--label-1">Label 1</div>                      | `font-label-1`     | Mini form input text
+<div class="font--label-2">Label 2</div>                      | `font-label-1`     | Form labels
+<div class="font--note-1">Note 1</div>                        | `font-note-1`      | Icon links, modal messaging body
+<div class="font--button-label-1">Button Label 1</div>        | `font-display-1`   | Button labels
+<div class="font--button-label-2">Button Label 2</div>        | `button-label-1`   | Flat button labels, Nav menu items
+<div class="font--link-1">Link 1</div>                        | `button-label-2`   | Inline links
+
+
+###Usage
+```html_example
+<div class="font-display-1">Display 1</div>
+```
+
+Also see [Font Colors][color-classes]
+
+*/
+.font--display-1 {
+  font-family: 'sf_ui_displaylight', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 28px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25; }
+
+.font--display-2 {
+  font-family: 'sf_ui_displaymedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 28px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25; }
+
+.font--headline-1 {
+  font-family: 'sf_ui_displaylight', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 20px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25; }
+
+.font--headline-2 {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 18px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25; }
+
+.font--body-1 {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25; }
+
+.font--body-2 {
+  font-family: 'sf_ui_displaymedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25; }
+
+.font--label-1 {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #999999;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25; }
+
+.font--label-2 {
+  font-family: 'sf_ui_displaymedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25; }
+
+.font--note-1 {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 12px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25; }
+
+.font--button-label-1 {
+  font-family: 'sf_ui_textmedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background-color: #16a816; }
+
+.font--button-label-2 {
+  font-family: 'sf_ui_textmedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #0466ca;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+.font--link-1 {
+  color: #0466ca;
+  text-decoration: none; }
+
+/*doc
+---
+title: Spacing
+name: spacing
+category: Utilities
+---
+
+
+
+Below are the spacing sizes available for all In-Store applications. Developers **should
+never** specify space between elements via its px value. All spaces used should be called
+using the `spacing` function.
+
+Use the `spacing` function with the color identifier (case-insensitive)
+
+
+Examples
+
+- spacing: spacing(xxl);
+- spacing: spacing(XXL);
+
+
+### Full list of spacing sizes
+Spacing sizes                      | Size Code |Return Value   | CSS
+---------------------------------- | --------- |-------------- | ------------------------
+<div class="height-xxxl"></div>    | xxxl      |64px           | `height:spacing(xxxl);`
+<div class="height-xxl"></div>     | xxl       |48px           | `height:spacing(xxl);`
+<div class="height-xl"></div>      | xl        |32px           | `height:spacing(xl);`
+<div class="height-l"></div>       | l         |20px           | `height:spacing(l);`
+<div class="height-m"></div>       | m         |16px           | `height:spacing(m);`
+<div class="height-s"></div>       | s         |8px            | `height:spacing(s);`
+<div class="height-xs"></div>      | xs        |5px            | `height:spacing(xs);`
+<div class="height-xxs"></div>     | xxs       |1px            | `height:spacing(xxs);`
+<div class="height-0"></div>       | 0         |0              | `height:spacing(0);`
+*/
+/*doc
+---
+title: Icons
+name: icons
+category: Utilities
+---
+
+Icons used within In-Store Style Guide are made from a custom font.
+### Icons
+Icon*                                 | svg*                                   | Modifier class       | Default                                   | Modifiers added      | Usage
+------------------------------------- | -------------------------------------- | -------------------- | ----------------------------------------- | -------------------- | -------------------
+<i class="i i--no"></i>               | ![no](svg/no.svg)                      | `i--no`              | <i class="i i--no i--r1"></i>             | `i--r`               |
+<i class="i i--clear"></i>            | ![clear](svg/clear.svg)                | `i--clear`           | <i class="i i--clear i--g3 i--14"></i>    | `i--g3 i--14`        | input clear
+<i class="i i--woman"></i>            | ![woman](svg/woman.svg)                | `i--woman`           | <i class="i i--woman i--b1"></i>          | `i--b1`              |
+<i class="i i--cc"></i>               | ![cc](svg/cc.svg)                      | `i--cc`              | <i class="i i--cc i--b1"></i>             | `i--b1`              |
+<i class="i i--add"></i>              | ![add](svg/add.svg)                    | `i--add`             | <i class="i i--add i--b1"></i>            | `i--b1`              |
+<i class="i i--flip"></i>             | ![flip](svg/flip.svg)                  | `i--flip`            | <i class="i i--flip i--36"></i>           | `i--36`              |
+<i class="i i--gift"></i>             | ![gift](svg/gift.svg)                  | `i--gift`            | <i class="i i--gift i--b1"></i>           | `i--b1`              |
+<i class="i i--help"></i>             | ![help](svg/help.svg)                  | `i--help`            | <i class="i i--help i--b1"></i>           | `i--b1`              |
+<i class="i i--percent"></i>          | ![percent](svg/percent.svg)            | `i--percent`         | <i class="i i--percent i--b1"></i>        | `i--b1`              |
+<i class="i i--price"></i>            | ![price](svg/price.svg)                | `i--price`           | <i class="i i--price i--b1"></i>          | `i--b1`              |
+<i class="i i--receipt"></i>          | ![receipt](svg/receipt.svg)            | `i--receipt`         | <i class="i i--receipt i--b1"></i>        | `i--b1`              |
+<i class="i i--refresh"></i>          | ![refresh](svg/refresh.svg)            | `i--refresh`         | <i class="i i--refresh i--b1"></i>        | `i--b1`              |
+<i class="i i--scan-big"></i>         | ![scan-big](svg/scan-big.svg)          | `i--scan-big`        | <i class="i i--scan-big i--b1 i--36"></i> | `i--b1 i--36`        |
+<i class="i i--scan"></i>             | ![scan](svg/scan.svg)                  | `i--scan`            | <i class="i i--scan i--b1"></i>           | `i--b1`              |
+<i class="i i--search"></i>           | ![search](svg/search.svg)              | `i--search`          | <i class="i i--search i--b1"></i>         | `i--b1`              |
+<i class="i i--tag"></i>              | ![tag](svg/tag.svg)                    | `i--tag`             | <i class="i i--tag i--b1"></i>            | `i--b1`              |
+<i class="i i--time"></i>             | ![time](svg/time.svg)                  | `i--time`            | <i class="i i--time i--b1"></i>           | `i--b1`              |
+<i class="i i--caret-up"></i>         | ![caret up](svg/caret-up.svg)          | `i--caret-up`        | <i class="i i--caret-up i--g3"></i>       | `i--g3`              | collapse element details
+<i class="i i--caret-down"></i>       | ![caret down](svg/caret-down.svg)      | `i--caret-down`      | <i class="i i--caret-down i--g3"></i>     | `i--g3`              | open element details
+<i class="i i--caret-right"></i>      | ![caret right](svg/caret-right.svg)    | `i--caret-right`     | <i class="i i--caret-right i--b1"></i>    | `i--b1`              | go forward
+<i class="i i--caret-left"></i>       | ![caret left](svg/caret-left.svg)      | `i--caret-left`      | <i class="i i--caret-left i--b1"></i>     | `i--b1`              | back button
+<i class="i i--x"></i>                | ![x](svg/x.svg)                        | `i--x`               | <i class="i i--x i--g3"></i>              | `i--g3`              | close button
+
+*\*NOTE: if the icon and svg do not look the same something is broken (ignore size differences)*
+
+###Adding Icons
+
+To add new fonts to the font set 'gap_icons' goto [https://icomoon.io/app](https://icomoon.io/app).
+
+1. Click import icons and upload the selection.json file in the gap_icon folder from this project
+2. Click `Yes` to loading all the settings stored in the selection file
+  - All your imported icons should be selected (yellow border)
+3. Import the new icons (svg)
+  - NOTE: svg should have a height of 20px and width should match the width of the icon
+4. Select the new icons (now your old icons and new icons should be selected)
+  - NOTE: font codes are in PUA format ex: e901
+5. Click `Generate Font`
+6. Download your font
+7. Replace gap_icon folder with the downloaded contents
+8. Update the css in this page (copy the new icon css)
+9. Add the example to the documentation
+  - upload the svg of the new icon into doc_assets > gap_icon > svg
+10. Ensure you didn't break anything (the icon and svg should display the same image)
+  - WARNING: if content code got switched, it'll cause the wrong icon to appear
+
+
+*/
+@font-face {
+  font-family: 'gap_icon';
+  src: url(bfb879be023eae74d1e76a852c534b78.eot);
+  src: url(bfb879be023eae74d1e76a852c534b78.eot#iefix) format("embedded-opentype"), url(28b4b25b120e65cfb09940466f7e6ebf.ttf) format("truetype"), url(de3502b35176781d3f984988b06e4026.woff) format("woff"), url(b8978f2b49d9303ebca84a1fcfe6e92b.svg#gap_icon) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'gap_icon' !important;
+  speak: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.i--no:before {
+  content: "\E905"; }
+
+.i--clear:before {
+  content: "\E906"; }
+
+.i--woman:before {
+  content: "\E907"; }
+
+.i--cc:before {
+  content: "\E908"; }
+
+.i--add:before {
+  content: "\E909"; }
+
+.i--flip:before {
+  content: "\E90A"; }
+
+.i--gift:before {
+  content: "\E90B"; }
+
+.i--help:before {
+  content: "\E90C"; }
+
+.i--percent:before {
+  content: "\E90D"; }
+
+.i--price:before {
+  content: "\E90E"; }
+
+.i--receipt:before {
+  content: "\E90F"; }
+
+.i--refresh:before {
+  content: "\E910"; }
+
+.i--scan-big:before {
+  content: "\E911"; }
+
+.i--scan:before {
+  content: "\E912"; }
+
+.i--search:before {
+  content: "\E913"; }
+
+.i--tag:before {
+  content: "\E914"; }
+
+.i--time:before {
+  content: "\E915"; }
+
+.i--caret-right:before {
+  content: "\E900"; }
+
+.i--caret-left:before {
+  content: "\E901"; }
+
+.i--caret-up:before {
+  content: "\E902"; }
+
+.i--caret-down:before {
+  content: "\E903"; }
+
+.i--x:before {
+  content: "\E904"; }
+
+/*doc
+---
+title: Icon Colors
+name: icon-colors
+category: Utilities
+parent: icons
+---
+
+Icon colors can be changed to any of the In-Store defined [colors][colors]. Add the color code with the prefix `i-`.
+Icon colors can also be combined with other icon modifiers.
+
+Colors                              | Modifier class  | Code
+----------------------------------- | --------------- | -----------------------
+  <i class="i i--x i--gn1"></i>       | `i--gn1`         | `<i class="i i--x i--gn1"></i>`
+  <i class="i i--x i--b1"></i>        | `i--b1`          | `<i class="i i--x i--b1"></i>`
+  <i class="i i--x i--y1"></i>        | `i--y1`          | `<i class="i i--x i--y1"></i>`
+  <i class="i i--x i--r1"></i>        | `i--r1`          | `<i class="i i--x i--r1"></i>`
+  <i class="i i--x i--g1"></i>        | `i--g1`          | `<i class="i i--x i--g1"></i>`
+  <i class="i i--x i--g2"></i>        | `i--g2`          | `<i class="i i--x i--g2"></i>`
+  <i class="i i--x i--g3"></i>        | `i--g3`          | `<i class="i i--x i--g3"></i>`
+  <i class="i i--x i--g4"></i>        | `i--g4`          | `<i class="i i--x i--g4"></i>`
+  <i class="i i--x i--g5"></i>        | `i--g5`          | `<i class="i i--x i--g5"></i>`
+  <i class="i i--x i--wh"></i>        | `i--wh`          | `<i class="i i--x i--wh"></i>`
+
+*/
+.i--gn1 {
+  color: #16a816; }
+
+.i--b1 {
+  color: #0466ca; }
+
+.i--y1 {
+  color: #f0b00b; }
+
+.i--r1 {
+  color: #d00000; }
+
+.i--g1 {
+  color: #333333; }
+
+.i--g2 {
+  color: #666666; }
+
+.i--g3 {
+  color: #999999; }
+
+.i--g4 {
+  color: #cccccc; }
+
+.i--g5 {
+  color: #f2f2f2; }
+
+.i--wh {
+  color: #ffffff; }
+
+.i--tr {
+  color: transparent; }
+
+/*doc
+---
+title: Icon Sizes
+name: icon-sizes
+category: Utilities
+parent: icons
+---
+
+
+Sizes                                | Modifier class       | Code
+------------------------------------ | -------------------- | -----------------------------
+<i class="i i--x i--14"></i>         | `i--14`              | `<i class="i i--x i--14"></i>`
+<i class="i i--x i--16"></i>         | `i--16`              | `<i class="i i--x i--16"></i>`
+<i class="i i--x i--20"></i>         | `i--20`              | `<i class="i i--x i--20"></i>`
+<i class="i i--x i--36"></i>         | `i--36`              | `<i class="i i--x i--36"></i>`
+
+In order to update the sizes available, update the `$icon-sizes` variable within the scss>hologram-modules>variable.scss
+Icon sizes can also be combined with other icon modifiers.
+
+*/
+.i--12 {
+  font-size: 12px; }
+
+.i--14 {
+  font-size: 14px; }
+
+.i--16 {
+  font-size: 16px; }
+
+.i--20 {
+  font-size: 20px; }
+
+.i--36 {
+  font-size: 36px; }
+
+/*doc
+---
+title:  Padders
+name: padders
+category: Utilities
+---
+
+Padders are containers that provide padding. There main use within In-Store is to provide white space around the end of the app.
+See [Spacing][Spacing] for all the possible size codes.
+
+Padders                                                                                                 | Modifier Class                | Code
+------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------------------------------
+<div id="p1" class="padder--m"><button class="button button--full-width">button</button></div>          | `padder--{size-code}`         | `<div id="p1" class="padder--m"><button class="button button--full-width">button</button></div>`
+<div id="p2" class="padder--rl-m"><button class="button button--full-width">button</button></div>       | `padder--rl-{size-code}`      | `<div id="p2" class="padder--rl-m"><button class="button button--full-width">button</button></div>`
+<div id="p3" class="padder--t-m"><button class="button button--full-width">button</button></div>        | `padder--t-{size-code}`       | `<div id="p3" class="padder--t-m"><button class="butto button--full-widthn">button</button></div>`
+<div id="p4" class="padder--r-m"><button class="button button--full-width">button</button></div>        | `padder--r-{size-code}`       | `<div id="p4" class="padder--r-m"><button class="button button--full-width">button</button></div>`
+<div id="p5" class="padder--l-m"><button class="button button--full-width">button</button></div>        | `padder--l-{size-code}`       | `<div id="p5" class="padder--l-m"><button class="button button--full-width">button</button></div>`
+<div id="p6" class="padder--b-m"><button class="button button--full-width">button</button></div>        | `padder--b-{size-code}`       | `<div id="p6" class="padder--b-m"><button class="button button--full-width">button</button></div>`
+
+
+####Priorities
+Padder modifiers can be combined to create the desired padding. Modifiers that modify less padding positions have higher priority than those modifying multiple padding positions.
+Higher Priority > `padder--r-{spacing-code}` > `padder--rl-{spacing-code}` > `padder--{spacing-code}` > Lower Priority
+
+```html_example
+<div id="padder-example" class="padder--xxl padder--r-xs">
+    <button class="button button--full-width">button</button>
+</div>
+
+```
+
+*/
+.padder--xxxl {
+  padding: 64px; }
+
+.padder--xxl {
+  padding: 48px; }
+
+.padder--xl {
+  padding: 32px; }
+
+.padder--l {
+  padding: 20px; }
+
+.padder--m {
+  padding: 16px; }
+
+.padder--s {
+  padding: 8px; }
+
+.padder--xs {
+  padding: 5px; }
+
+.padder--xxs {
+  padding: 1px; }
+
+.padder--0 {
+  padding: 0; }
+
+.padder--rl-xxxl {
+  padding-left: 64px;
+  padding-right: 64px; }
+
+.padder--rl-xxl {
+  padding-left: 48px;
+  padding-right: 48px; }
+
+.padder--rl-xl {
+  padding-left: 32px;
+  padding-right: 32px; }
+
+.padder--rl-l {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.padder--rl-m {
+  padding-left: 16px;
+  padding-right: 16px; }
+
+.padder--rl-s {
+  padding-left: 8px;
+  padding-right: 8px; }
+
+.padder--rl-xs {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.padder--rl-xxs {
+  padding-left: 1px;
+  padding-right: 1px; }
+
+.padder--rl-0 {
+  padding-left: 0;
+  padding-right: 0; }
+
+.padder--t-xxxl {
+  padding-top: 64px; }
+
+.padder--t-xxl {
+  padding-top: 48px; }
+
+.padder--t-xl {
+  padding-top: 32px; }
+
+.padder--t-l {
+  padding-top: 20px; }
+
+.padder--t-m {
+  padding-top: 16px; }
+
+.padder--t-s {
+  padding-top: 8px; }
+
+.padder--t-xs {
+  padding-top: 5px; }
+
+.padder--t-xxs {
+  padding-top: 1px; }
+
+.padder--t-0 {
+  padding-top: 0; }
+
+.padder--r-xxxl {
+  padding-right: 64px; }
+
+.padder--r-xxl {
+  padding-right: 48px; }
+
+.padder--r-xl {
+  padding-right: 32px; }
+
+.padder--r-l {
+  padding-right: 20px; }
+
+.padder--r-m {
+  padding-right: 16px; }
+
+.padder--r-s {
+  padding-right: 8px; }
+
+.padder--r-xs {
+  padding-right: 5px; }
+
+.padder--r-xxs {
+  padding-right: 1px; }
+
+.padder--r-0 {
+  padding-right: 0; }
+
+.padder--l-xxxl {
+  padding-left: 64px; }
+
+.padder--l-xxl {
+  padding-left: 48px; }
+
+.padder--l-xl {
+  padding-left: 32px; }
+
+.padder--l-l {
+  padding-left: 20px; }
+
+.padder--l-m {
+  padding-left: 16px; }
+
+.padder--l-s {
+  padding-left: 8px; }
+
+.padder--l-xs {
+  padding-left: 5px; }
+
+.padder--l-xxs {
+  padding-left: 1px; }
+
+.padder--l-0 {
+  padding-left: 0; }
+
+.padder--b-xxxl {
+  padding-bottom: 64px; }
+
+.padder--b-xxl {
+  padding-bottom: 48px; }
+
+.padder--b-xl {
+  padding-bottom: 32px; }
+
+.padder--b-l {
+  padding-bottom: 20px; }
+
+.padder--b-m {
+  padding-bottom: 16px; }
+
+.padder--b-s {
+  padding-bottom: 8px; }
+
+.padder--b-xs {
+  padding-bottom: 5px; }
+
+.padder--b-xxs {
+  padding-bottom: 1px; }
+
+.padder--b-0 {
+  padding-bottom: 0; }
+
+/*doc
+---
+title:  Padder Modifiers
+name: padder-modifiers
+category: Utilities
+parent: padders
+---
+
+Modifier                                                                                                                                                     | Modifier class            | Notes
+------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- | ---------------
+<div class="padder-parent"><div class="padder--m padder--full-width"><button class="button button--full-width">button</button></div></div>    | `padder--full-width`      |
+<div class="padder-parent"><div class="padder--m padder--full-height"><button class="button button--full-width">button</button></div></div>   | `padder--full-height`     | parent must have a height value
+<div class="padder-parent"><div class="padder--m padder--height-vh"><button class="button button--full-width">button</button></div></div>     | `padder--height-vh`       | height will be equivalent to viewport height
+<div class="padder-parent"><div class="padder--m padder--height-vw"><button class="button button--full-width">button</button></div></div>     | `padder--height-vw`       | height will be equivalent to viewport width
+<div class="padder-parent"><div class="padder--m padder--width-vw"><button class="button button--full-width">button</button></div></div>      | `padder--width-vw`        | width will be equivalent to viewport width
+<div class="padder-parent"><div class="padder--m padder--width-vh"><button class="button button--full-width">button</button></div></div>      | `padder--width-vh`        | height will be equivalent to viewport width
+
+
+*/
+.padder--full-width {
+  width: 100%; }
+
+.padder--full-height {
+  height: 100%; }
+
+.padder--height-vh {
+  height: 100vh; }
+
+.padder--height-vw {
+  height: 100vw; }
+
+.padder--width-vw {
+  width: 100vw; }
+
+.padder--width-vh {
+  width: 100vh; }
+
+/*doc
+---
+title: Input Elements
+name: input-elements
+category: Utilities
+---
+
+Below are described the input elements that should be used for all
+In-Store applications. If in doubt, check the suggested usage scenarios.
+
+### Input
+
+```html_example
+<div class="form-field">
+    <input type="text" class="form-field__input" id="input_1" value=""/>
+    <label class="form-field__label" for="input_1">First Name</label>
+</div>
+```
+
+### No margin bottom Input
+
+```html_example
+<div class="form-field">
+    <input type="text" class="form-field__input form-field__input--no-margin-bottom" id="input_1" value=""/>
+    <label class="form-field__label" for="input_1">I have no margin at the bottom</label>
+</div>
+```
+
+#### Optional field
+
+```html_example
+<div class="form-field">
+    <input type="text" class="form-field__input" id="input_1" value=""/>
+    <label class="form-field__label" for="input_1">Phone Number</label>
+    <label class="form-field__label form-field__label--optional">Optional</label>
+</div>
+```
+
+#### Validation field
+
+```html_example
+<div class="form-field">
+    <input type="email" class="form-field__input" id="input_1" value=""/>
+    <label class="form-field__label" for="input_1">Email</label>
+    <label class="form-field__label form-field__label--validation">Enter a valid mail address</label>
+</div>
+```
+
+#### Numeric field
+
+```html_example
+<div class="form-field">
+    <input type="number" class="form-field__input form-field__input--numeric" id="input_1" value=""/>
+    <label class="form-field__label" for="input_1">Number of Bags</label>
+</div>
+```
+
+#### Clearable field
+```html_example
+<div class="form-field">
+    <input type="text" class="form-field__input--clearable form-field__input--oversize form-field__input form-field__input--numeric" id="input_1" value="$65.25"/>
+    <button class="form-field__clear-button"  onclick=""><i class="i i--clear i--g4 i--16"></i></button>
+    <label class="form-field__label" for="input_1">Amount</label>
+</div>
+```
+The onclick event should be placed in the ```<button></button>``` tag.
+
+### Checkboxes
+
+```html_example
+<div class="checkbox">
+    <input class="checkbox__input" type="checkbox" id="checkbox_1"/>
+    <label class="checkbox__label" for="checkbox_1">
+        <span class="checkbox__box"><i class="checkbox__checkmark"></i></span>
+        Remember me
+    </label>
+</div>
+```
+
+*/
+.form-field {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  position: relative;
+  margin-bottom: 20px; }
+
+.form-field__input[type=text],
+.form-field__input[type=number],
+.form-field__input[type=password],
+.form-field__input[type=email] {
+  font-family: 'sf_ui_displaymedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25;
+  color: #333333;
+  order: 2;
+  -webkit-order: 2;
+  border: none;
+  border-bottom: 1px solid #666666;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  height: 44px;
+  margin-bottom: 20px; }
+  .form-field__input[type=text]:focus,
+  .form-field__input[type=number]:focus,
+  .form-field__input[type=password]:focus,
+  .form-field__input[type=email]:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #0466ca; }
+  .form-field__input[type=text]:invalid,
+  .form-field__input[type=number]:invalid,
+  .form-field__input[type=password]:invalid,
+  .form-field__input[type=email]:invalid {
+    padding-left: 8px;
+    border: 1px solid #d00000; }
+
+.form-field__input--numeric {
+  text-align: right; }
+
+.form-field__input--clearable[type=text],
+.form-field__input--clearable[type=number],
+.form-field__input--clearable[type=password],
+.form-field__input--clearable[type=email] {
+  padding-right: 32px; }
+
+.form-field__input--oversize[type=text],
+.form-field__input--oversize[type=number],
+.form-field__input--oversize[type=password],
+.form-field__input--oversize[type=email] {
+  font-family: 'sf_ui_displaylight', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 28px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25; }
+
+.form-field__input--no-margin-bottom[type=text],
+.form-field__input--no-margin-bottom[type=number],
+.form-field__input--no-margin-bottom[type=password],
+.form-field__input--no-margin-bottom[type=email] {
+  margin-bottom: 0; }
+
+.form-field__clear-button {
+  background-color: transparent;
+  margin-top: 16px;
+  height: 48px;
+  position: absolute;
+  border: none;
+  z-index: 1;
+  right: 0; }
+
+.form-field__label {
+  font-family: 'sf_ui_displaymedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25;
+  color: #999999;
+  order: 1;
+  -webkit-order: 1;
+  pointer-events: none;
+  -webkit-font-smoothing: antialiased;
+  z-index: 1;
+  position: relative;
+  transform-origin: left top 0px;
+  -webkit-align-self: flex-start;
+  align-self: flex-start;
+  text-transform: uppercase;
+  transform: translate3d(0px, 6px, 0px) scale(0.75); }
+
+.form-field__label--optional {
+  order: 3;
+  -webkit-order: 3;
+  margin-left: auto;
+  color: #cccccc;
+  transform: translate3d(0px, -78px, 0px) scale(0.75); }
+
+.form-field__label--validation {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 12px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25;
+  order: 4;
+  -webkit-order: 4;
+  color: #d00000;
+  transform: translate3d(0px, -50px, 0px) scale(1);
+  visibility: hidden; }
+
+.form-field__input[value=""] ~ .form-field__label {
+  color: #666666;
+  transform: translate3d(0px, 34px, 0px) scale(1);
+  transition: transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+  text-transform: none; }
+
+.form-field__input[value=""] ~ .form-field__label--optional {
+  transform: translate3d(0px, -50px, 0px) scale(1); }
+
+.form-field__input[value=""] ~ .form-field__label--validation {
+  visibility: hidden; }
+
+.form-field__input:focus ~ .form-field__label {
+  transform: translate3d(0px, 6px, 0px) scale(0.75);
+  color: #0466ca;
+  text-transform: uppercase; }
+
+.form-field__input:focus ~ .form-field__label--optional {
+  transform: translate3d(0px, -78px, 0px) scale(0.75);
+  color: #cccccc; }
+
+.form-field__input:invalid ~ .form-field__label {
+  visibility: hidden; }
+
+.form-field__input:invalid ~ .form-field__label--optional {
+  visibility: visible; }
+
+.form-field__input:invalid ~ .form-field__label--validation {
+  transform: translate3d(0px, -83px, 0px) scale(1);
+  color: #d00000;
+  visibility: visible;
+  transition: none;
+  text-transform: uppercase; }
+
+.checkbox {
+  margin: 32px 0; }
+
+.checkbox__input {
+  display: none; }
+
+.checkbox__label {
+  font-family: 'sf_ui_displaymedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.checkbox__box {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 0 8px 0 0;
+  vertical-align: sub;
+  cursor: pointer;
+  border: 1px solid #666666;
+  background-color: #ffffff; }
+
+.checkbox__input:checked + .checkbox__label .checkbox__box {
+  background-color: #0466ca;
+  border: none; }
+
+.checkbox__input:checked + .checkbox__label .checkbox__checkmark:after {
+  width: 13px;
+  height: 5px;
+  content: "";
+  border: 2px solid #ffffff;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 5px;
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+/*doc
+---
+title: Sticky
+name: sticky
+category: Utilities
+---
+
+The sticky class, is used to lock elements to the full width of the top or bottom of the page, or to the full height of the right and left of the page.
+
+### Sticky Modifiers
+
+| CSS                       | Usage
+| ------------------------- | ------------------------
+| `sticky--header`          | header menu
+| `sticky--footer`          | footer
+| `sticky--right`           | side menu on the right
+| `sticky--left`            | side menu on the left
+
+
+```html_example
+  <div id="sticky-header" class="sticky sticky--header"></div>
+```
+
+<button id="sticky-header-demo-button" class="button-stack__button button button--transact button--full-width">Open/close Sticky Header</button>
+
+```html_example
+  <div id="sticky-right" class="sticky sticky--right"></div>
+```
+
+<button id="sticky-right-demo-button" class="button-stack__button button button--transact button--full-width">Open/close Sticky Right</button>
+
+
+**Warning:** Sticky elements are fixed elements, but tend to become absolute elements when the keypad opens up in iOS devices
+
+Scrollable pages with fixed headers/footers, will require padding top equivalent to the sticky-header height and padding-bottom equivalent to the sticky-footer height to ensure nothing is hidden.
+Pages with sticky--right or sticky-left will require padding left and right equivalent to the widths of the sticky to ensure items are not hidden underneath.
+This will require javascript to keep this component dynamic else, page specific css.
+
+*/
+.sticky {
+  position: fixed;
+  z-index: 1; }
+
+.sticky--header {
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.sticky--footer {
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+
+.sticky--right {
+  top: 0;
+  right: 0;
+  height: 100%; }
+
+.sticky--left {
+  top: 0;
+  left: 0;
+  height: 100%; }
+
+/*doc
+---
+title:  Icon Buttons
+name: icon-buttons
+category: Utilities
+parent: buttons
+---
+
+Buttons containing icons can be used with any of the button modifiers.
+
+```html_example_table
+<button class="button button--flat">
+    <i class="button__icon i i--x"></i>Flat
+</button>
+
+<button class="button button--flat button--color-y1">
+    <i class="button__icon i i--x"></i>Flat
+</button>
+
+<button class="button button--flat button--disabled">
+    <i class="button__icon i i--x"></i>Flat
+</button>
+
+<button class="button button--primary">
+    <i class="button__icon i i--x"></i>Flat
+</button>
+```
+
+*/
+.button__icon {
+  padding-right: 8px;
+  display: inline-block;
+  vertical-align: middle; }
+
+/*doc
+---
+title: Block Spacing
+name: block-spacing
+category: Utilities
+parent: spacing
+---
+
+Block spacing is used the distance block elements vertically from each other. It will add a margin-bottom of the proper size to the element.
+
+
+Block Spacing                                                  | Modifier Class          | Code
+-------------------------------------------------------------- | ----------------------- | ---------------
+<div class="block sp--xxxl"></div><div class="block"></div>    | `sp--xxxl`              | `<div class="block sp--xxxl"></div><div class="block"></div>`
+<div class="block sp--xxl"></div><div class="block"></div>     | `sp--xxl`               | `<div class="block sp--xxl"></div><div class="block"></div>`
+<div class="block sp--xl"></div><div class="block"></div>      | `sp--xl`                | `<div class="block sp--xl"></div><div class="block"></div>`
+<div class="block sp--l"></div><div class="block"></div>       | `sp--l`                 | `<div class="block sp--l"></div><div class="block"></div>`
+<div class="block sp--m"></div><div class="block"></div>       | `sp--m`                 | `<div class="block sp--m"></div><div class="block"></div>`
+<div class="block sp--s"></div><div class="block"></div>       | `sp--s`                 | `<div class="block sp--s"></div><div class="block"></div>`
+<div class="block sp--xs"></div><div class="block"></div>      | `sp--xs`                | `<div class="block sp--xs"></div><div class="block"></div>`
+<div class="block sp--xxs"></div><div class="block"></div>     | `sp--xxs`               | `<div class="block sp--xxs"></div><div class="block"></div>`
+
+
+*/
+.sp--xxxl {
+  margin-bottom: 64px; }
+
+.sp--xxl {
+  margin-bottom: 48px; }
+
+.sp--xl {
+  margin-bottom: 32px; }
+
+.sp--l {
+  margin-bottom: 20px; }
+
+.sp--m {
+  margin-bottom: 16px; }
+
+.sp--s {
+  margin-bottom: 8px; }
+
+.sp--xs {
+  margin-bottom: 5px; }
+
+.sp--xxs {
+  margin-bottom: 1px; }
+
+.sp--0 {
+  margin-bottom: 0; }
+
+/*doc
+---
+title: Buttons
+name: buttons
+category: Utilities
+---
+
+ Button styles can be applied to any element. Typically you'll want
+ to use a `<button>` element:
+
+ ```html_example
+
+ <button class="button button--transact">Transact</button>
+
+ ```
+
+ Button                                                                             | Modifier Class               | Usage
+ ---------------------------------------------------------------------------------- | ---------------------------- | ------------------
+ <button class="button ">Button</button>                                            | `button`                     |
+ <button class="button button--primary">Primary</button>                            | `button--primary`            | Use this button as the dominant action(s) on a page or menu.
+ <button class="button button--transact">Transact</button>                          | `button--transact`           | The transaction state of the Primary button. Use this button for any action associated with submitting a payment or an order
+ <button class="button button--secondary">Secondary</button>                        | `button--secondary`          | Use this button as the secondary action(s) on a page where less prominence is needed.
+ <button class="button button--tertiary">Tertiary</button>                          | `button--tertiary`           | Use this button as many times as needed on a page. It can be paired with another button of the same or different style.
+ <button class="button button--flat">Flat</button>                                  | `button--flat`               | By default includes an icon in the label, on the lef-hand side. Can be paired with another button of the same or different style.
+ <button class="button button--flat"><i class="button__icon i i--x"></i>Flat</button>  | `button__icon`                  | See [icon buttons][icon-buttons]
+
+ */
+.button:hover,
+.button:active,
+.button:focus {
+  background: #0357ac; }
+
+.button,
+.button.button--disabled {
+  padding: 0 16px;
+  height: 44px;
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  line-height: 44px;
+  background: #0466ca;
+  font-family: 'sf_ui_textmedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+.button--primary:hover,
+.button--primary:active,
+.button--primary:focus {
+  background: #0357ac; }
+
+.button--primary,
+.button--primary.button--disabled {
+  background: #0466ca;
+  font-family: 'sf_ui_textmedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+.button--transact:hover,
+.button--transact:active,
+.button--transact:focus {
+  background: #15a015; }
+
+.button--transact,
+.button--transact.button--disabled {
+  background: #16a816;
+  font-family: 'sf_ui_textmedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+.button--secondary:hover,
+.button--secondary:active,
+.button--secondary:focus {
+  background: #ffffff;
+  border: 1px solid #0352a2;
+  color: #0352a2; }
+
+.button--secondary,
+.button--secondary.button--disabled {
+  background: #ffffff;
+  border: 1px solid #0466ca;
+  font-family: 'sf_ui_textmedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #0466ca;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+.button--tertiary:hover,
+.button--tertiary:active,
+.button--tertiary:focus {
+  background: #e6e6e6; }
+
+.button--tertiary,
+.button--tertiary.button--disabled {
+  background: #f2f2f2;
+  font-family: 'sf_ui_textmedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #0466ca;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+.button--flat:hover,
+.button--flat:active,
+.button--flat:focus {
+  background: transparent;
+  color: #0352a2; }
+
+.button--flat,
+.button--flat.button--disabled {
+  background: transparent;
+  font-family: 'sf_ui_textmedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #0466ca;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+/*doc
+---
+title:  Button Modules
+name: button-modules
+category: Utilities
+parent: buttons
+---
+
+###Padded Button
+```html_example
+
+<div id="btn-mod-padded" class="padder--m">
+<button class="button button--transact button--full-width">Padded</button>
+</div>
+
+```
+
+###Stacked Buttons
+```html_example
+
+<div id="btn-mod-stacked" class="button-stack padder--m">
+<button class="button-stack__button button button--tertiary button--full-width">Stacked</button>
+<button class="button-stack__button button button--tertiary button--full-width">Stacked</button>
+<button class="button-stack__button button button--primary button--full-width">Stacked</button>
+</div>
+
+```
+
+###Paired Buttons
+```html_example
+
+<div id="btn-mod-paired" class="button-pair padder--m">
+<button class="button-pair__button button button--primary">Pair</button>
+<button class="button-pair__button button button--secondary">Pair</button>
+</div>
+
+```
+
+*/
+.button-stack__button {
+  margin-bottom: 1px; }
+
+.button-stack__button:nth-last-child(2) {
+  margin-bottom: 16px; }
+
+.button-pair {
+  display: -webkit-flex;
+  display: flex; }
+
+.button-pair__button {
+  display: inline-block;
+  -webkit-flex: 50;
+  /* Safari 6.1+ */
+  -ms-flex: 50;
+  /* IE 10 */
+  flex: 50; }
+
+.button-pair__button:first-child {
+  margin-right: 5px; }
+
+/*doc
+---
+title: Button Modifiers
+name: button-modifiers
+category: Utilities
+parent: buttons
+---
+
+
+Modifiers include:
+
+- `button--disabled`
+- `button--full-width`
+- `button--color-gn1`, `button--color-b1`, ...
+
+###Disabled Button
+
+ Disabled Button                                                                          | Modifier Class               | Code
+ ---------------------------------------------------------------------------------------- | ---------------------------- | ------------------
+ <button class="button button--disabled">Button</button>                                  | `button`                     | `<button class="button button--disabled">Button</button>`
+ <button class="button button--primary button--disabled">Primary</button>                 | `button--primary`            | `<button class="button button--primary button--disabled">Tertiary</button>`
+ <button class="button button--transact button--disabled">Transact</button>               | `button--transact`           | `<button class="button button--transact button--disabled">Tertiary</button>`
+ <button class="button button--secondary button--disabled">Secondary</button>             | `button--secondary`          | `<button class="button button--secondary button--disabled">Tertiary</button>`
+ <button class="button button--tertiary button--disabled">Tertiary</button>               | `button--tertiary`           | `<button class="button button--tertiary button--disabled">Tertiary</button>`
+ <button class="button button--flat button--disabled">Flat</button>                       | `button--flat`               | `<button class="button button--flat button--disabled">Flat</button>`
+
+
+###Full Width Modifier
+
+  ```html_example
+
+ <button class="button button--transact button--full-width">Transact</button>
+
+ ```
+
+
+###Button Color Modifier
+
+ **RULE:** The button color modifier is to be used only with the flat button.
+ The format `button--color-{brand-color-code}` where `{brand-color-code}` can be any of our brand colors. See [colors][colors]
+
+```html_example_table
+ <button class="button button--flat button--color-gn1">Flat</button>
+
+ <button class="button button--flat button--color-y1">Flat</button>
+
+ <button class="button button--flat button--color-r1">Flat</button>
+
+ ```
+
+ */
+.button--disabled,
+.button--disabled:hover,
+.button--disabled:active,
+.button--disabled:focus {
+  opacity: 0.3; }
+
+.button--full-width {
+  width: 100%; }
+
+.button--color-gn1:hover,
+.button--color-gn1:active,
+.button--color-gn1:focus {
+  color: #149714; }
+
+.button--color-gn1 {
+  color: #16a816; }
+
+.button--color-b1:hover,
+.button--color-b1:active,
+.button--color-b1:focus {
+  color: #045cb6; }
+
+.button--color-b1 {
+  color: #0466ca; }
+
+.button--color-y1:hover,
+.button--color-y1:active,
+.button--color-y1:focus {
+  color: #d89e0a; }
+
+.button--color-y1 {
+  color: #f0b00b; }
+
+.button--color-r1:hover,
+.button--color-r1:active,
+.button--color-r1:focus {
+  color: #bb0000; }
+
+.button--color-r1 {
+  color: #d00000; }
+
+.button--color-g1:hover,
+.button--color-g1:active,
+.button--color-g1:focus {
+  color: #2e2e2e; }
+
+.button--color-g1 {
+  color: #333333; }
+
+.button--color-g2:hover,
+.button--color-g2:active,
+.button--color-g2:focus {
+  color: #5c5c5c; }
+
+.button--color-g2 {
+  color: #666666; }
+
+.button--color-g3:hover,
+.button--color-g3:active,
+.button--color-g3:focus {
+  color: #8a8a8a; }
+
+.button--color-g3 {
+  color: #999999; }
+
+.button--color-g4:hover,
+.button--color-g4:active,
+.button--color-g4:focus {
+  color: #b8b8b8; }
+
+.button--color-g4 {
+  color: #cccccc; }
+
+.button--color-g5:hover,
+.button--color-g5:active,
+.button--color-g5:focus {
+  color: #dadada; }
+
+.button--color-g5 {
+  color: #f2f2f2; }
+
+.button--color-wh:hover,
+.button--color-wh:active,
+.button--color-wh:focus {
+  color: #e6e6e6; }
+
+.button--color-wh {
+  color: #ffffff; }
+
+.button--color-tr:hover,
+.button--color-tr:active,
+.button--color-tr:focus {
+  color: rgba(0, 0, 0, 0.1); }
+
+.button--color-tr {
+  color: transparent; }
+
+/*doc
+---
+title: Link Bar
+name: link-bar
+category: Components
+---
+
+Link bar that should be used in In-Store applications.
+
+```html_example
+<a class="link-bar__a" href="#">
+  <span class="link-bar__span">Discount Codes: 0</span>
+</a>
+```
+
+*/
+.link-bar__a {
+  width: 100%;
+  height: 30px;
+  background-color: #f2f2f2;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #999999;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1; }
+
+.link-bar__span {
+  color: #0466ca; }
+
+/*doc
+---
+title: Summary Bar
+name: summary-bar
+category: Components
+---
+
+###Paired with Link Bar
+
+```html_example
+<div id="summary-bar-demo" class='summary-bar sticky sticky--footer'>
+<div class='summary-bar__discount'>
+  <a class="link-bar__a" href="#">
+    <span class="link-bar__span">Discount Codes: 0</span>
+  </a>
+</div>
+<div class='summary-bar__main'>
+  <a class='summary-bar__col summary-bar__col--link' href="#">
+    <div class='summary-bar__label summary-bar__label--link'>Total</div>
+    <div class='summary-bar__info'>$65.00</div>
+  </a>
+   <a class='summary-bar__col summary-bar__col--link'  href="#">
+    <div class='summary-bar__label summary-bar__label--link'>Paid</div>
+    <div class='summary-bar__info'>-</div>
+  </a>
+   <div class='summary-bar__col'>
+    <div class='summary-bar__label'>Balance Due</div>
+    <div class='summary-bar__info'>$6.00</div>
+  </div>
+</div>
+<button class="summary-bar__button button button--transact button--full-width">payment</button>
+</div>
+```
+<button id="summary-bar-button" class="button-stack__button button button--transact button--full-width">Open/Close summary bar</button>
+
+
+**Usage Notes**: Total and Paid columns in the example above are links.<br>
+`summary-bar__col` element should be used to trigger click events since it ensures a large click area.<br>
+**Modifier:**
+`summary-bar__label--link` will add link styling<br>
+`summary-bar__col--link` will add hover pointer
+
+If there are no values the total bar links should be disabled.
+Therefore `summary-bar__col--link` and `summary-bar__label--link` should be removed.
+The main button may or may not be disabled using `button--disabled` see [buttons modifiers][button-modifiers]
+
+###Two Columns
+Summary Bar supports two column
+
+```html_example
+<div class='summary-bar'>
+<div class='summary-bar__main'>
+  <div class='summary-bar__col'>
+    <div class='summary-bar__label'>Current Balance</div>
+    <div class='summary-bar__info'>$4.96</div>
+  </div>
+   <div class='summary-bar__col'>
+    <div class='summary-bar__label'>New Balance</div>
+    <div class='summary-bar__info'>$54.96</div>
+   </div>
+</div>
+</div>
+```
+
+*/
+.summary-bar__discount {
+  background-color: #ffffff;
+  padding-bottom: 1px; }
+
+.summary-bar__discount--hide {
+  display: none; }
+
+.summary-bar__main {
+  width: 100%;
+  height: 51px;
+  padding: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #f2f2f2;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+.summary-bar__col {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding-left: 8px; }
+
+.summary-bar__col--link {
+  cursor: pointer; }
+
+.summary-bar__col:first-child {
+  text-align: left;
+  padding-left: 0; }
+
+.summary-bar__col:last-child {
+  text-align: right; }
+
+.summary-bar__label {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #999999;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1;
+  padding-bottom: 5px; }
+
+.summary-bar__label--link {
+  color: #0466ca;
+  text-decoration: none; }
+
+.summary-bar__info {
+  font-family: 'sf_ui_displaymedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1; }
+
+.summary-bar__button--hide {
+  display: none; }
+
+/*doc
+---
+title:  Signature Capture
+name: signature-capture
+category: Components
+---
+
+```html_example
+  <div id="signature-demo-wrapper" class="signature-capture">
+    <div class="signature-capture__visual-layer">
+        <div class="signature-capture__title">$65.25</div>
+        <div class="signature-capture__sign"><i class="signature-capture__x"></i><div class="signature-capture__line"></div></div>
+    </div>
+    <div class="signature-capture__touch-layer">
+      <canvas class="signature-capture__canvas"></canvas>
+      <div class="signature-capture__button-pair">
+        <button class="signature-capture__button signature-capture__button--clear">clear</button>
+        <button class="signature-capture__button signature-capture__button--accept">accept</button>
+      </div>
+    </div>
+  </div>
+```
+
+<button id="signature-demo-button" class="button-stack__button button button--transact button--full-width">Open/Close signature capture</button>
+
+
+The signature capture is designed for mobile use only, since the ipad uses another source.
+Due to the fact that it will span full view please click the button above to open/close the signature box. Refreshing the page will also close the signature capture.
+
+NOTE:** that signature capture scss was made to work with the svn bower component (http://svn.gap.dev/svn/stores/selling/components/signature-capture/)[http://svn.gap.dev/svn/stores/selling/components/signature-capture/]
+The bower component contains the angular signature capture directive. Which makes up only the inner html elements inside `signature-capture__touch-layer`.
+
+```
+<section class="signature-capture">
+    <div class="signature-capture__visual-layer">
+        <div class="signature-capture__title">{{ signatureItems.total | currency }}</div>
+        <div class="signature-capture__sign"><i class="signature-capture__x"></i><div class="signature-capture__line"></div></div>
+    </div>
+    <div class="signature-capture__touch-layer" signature-capture>
+    </div>
+</section>
+```
+<br/>
+The bower component contains extra html for terms. No style has been added for this.
+
+```
+<div class="signature-capture__terms" ng-show="!hideAgreeToTerms">
+    <input id="agreeToTerms" tabindex="1" autofocus="autofocus" type="checkbox" class="signature-capture__checkbox" ng-model="termsAgreed"/>
+    <label for="agreeToTerms" class="signature-capture__question">{{"termsAndConditions" | localize }}</label>
+</div>
+```
+
+
+
+
+
+
+
+*/
+.signature-capture {
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  -o-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  width: 100vh;
+  height: 100vw;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #ffffff; }
+
+.signature-capture__visual-layer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px 16px; }
+
+.signature-capture__title {
+  font-family: 'sf_ui_displaylight', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 28px;
+  color: #666666;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25;
+  text-align: center; }
+
+.signature-capture__sign {
+  padding-top: 100vw;
+  margin-top: -175px; }
+
+.signature-capture__x {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  display: block; }
+
+.signature-capture__x:before,
+.signature-capture__x:after {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 2px;
+  background-color: #999999;
+  top: 16px;
+  right: 0;
+  transform-origin: center; }
+
+.signature-capture__x:before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.signature-capture__x:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.signature-capture__line {
+  padding-top: 8px;
+  border-bottom: 2px solid #999999;
+  padding-left: 25px;
+  width: 100%; }
+
+.signature-capture__touch-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.signature-capture__canvas {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  width: 400px;
+  height: 700px;
+  margin-top: -150px;
+  border: 1px solid #f0f0f0; }
+
+.signature-capture__button-pair {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-flex !important;
+  display: flex !important;
+  padding: 16px; }
+
+.signature-capture__button {
+  display: inline-block;
+  -webkit-flex: 50;
+  /* Safari 6.1+ */
+  -ms-flex: 50;
+  /* IE 10 */
+  flex: 50; }
+
+.signature-capture__button {
+  padding: 0 16px;
+  height: 44px;
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  line-height: 44px; }
+
+.signature-capture__button--clear:hover,
+.signature-capture__button--clear:active,
+.signature-capture__button--clear:focus {
+  background: #ffffff;
+  border: 1px solid #0352a2;
+  color: #0352a2; }
+
+.signature-capture__button--clear,
+.signature-capture__button--clear.signature-capture__button--disabled {
+  background: #ffffff;
+  border: 1px solid #0466ca;
+  font-family: 'sf_ui_textmedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #0466ca;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-right: 16px; }
+
+.signature-capture__button--accept:hover,
+.signature-capture__button--accept:active,
+.signature-capture__button--accept:focus {
+  background: #15a015; }
+
+.signature-capture__button--accept,
+.signature-capture__button--accept.button--disabled {
+  background: #16a816;
+  font-family: 'sf_ui_textmedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+.signature-capture__button--disabled {
+  opacity: 0.3; }
+
+/*doc
+---
+title: Grid Selector
+name: grid-selector
+category: Components
+---
+
+Amount selector component of four columns width.
+<br/><br/>
+<b>Initial state: No element is selected.</b>
+<br/><br/>
+Only one item is selected at time.
+
+
+```html_example
+<div class="grid-selector">
+  <div class="grid-selector__option">
+    <input type="radio" name="amount_selector" id="button10" class="grid-selector__radio"/>
+    <label class="grid-selector__button" for="button10">$10</label>
+  </div>
+  <div class="grid-selector__option">
+    <input type="radio" name="amount_selector" id="button15" class="grid-selector__radio"/>
+    <label class="grid-selector__button" for="button15">$15</label>
+  </div>
+  <div class="grid-selector__option">
+    <input type="radio" name="amount_selector" id="button20" class="grid-selector__radio"/>
+    <label class="grid-selector__button" for="button20">$20</label>
+  </div>
+  <div class="grid-selector__option">
+    <input type="radio" name="amount_selector" id="button25" class="grid-selector__radio"/>
+    <label class="grid-selector__button" for="button25">$25</label>
+  </div>
+  <div class="grid-selector__option">
+    <input type="radio" name="amount_selector" id="button50" class="grid-selector__radio"/>
+    <label class="grid-selector__button" for="button50">$50</label>
+  </div>
+  <div class="grid-selector__option">
+    <input type="radio" name="amount_selector" id="button75" class="grid-selector__radio"/>
+    <label class="grid-selector__button" for="button75">$75</label>
+  </div>
+  <div class="grid-selector__option">
+    <input type="radio" name="amount_selector" id="button100" class="grid-selector__radio"/>
+    <label class="grid-selector__button" for="button100">$100</label>
+  </div>
+  <div class="grid-selector__option">
+    <input type="radio" name="amount_selector" id="button200" class="grid-selector__radio"/>
+    <label class="grid-selector__button" for="button200">$200</label>
+  </div>
+</div>
+```
+
+ */
+.grid-selector {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px; }
+
+.grid-selector__option {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 16px;
+  width: 25%; }
+
+.grid-selector__radio {
+  display: none; }
+
+.grid-selector__button {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25;
+  display: block;
+  height: 55px;
+  width: 100%;
+  background: #f2f2f2;
+  color: #0466ca;
+  border: 0;
+  text-align: center;
+  line-height: 55px;
+  cursor: pointer; }
+
+.grid-selector__radio:checked + .grid-selector__button {
+  font-family: 'sf_ui_displaymedium', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25;
+  color: #333333;
+  line-height: 58px;
+  box-shadow: 0 9px 0 #0466ca;
+  outline: 5px solid #ffffff; }
+
+/*doc
+---
+title: List
+name: list
+category: Components
+---
+
+Lists span 100% with and include a selected state modifier.
+Lists are to be used with [list-cards][list-cards]<br>
+
+###Modifiers
+`list__item--selected`
+
+```html_example
+  <ul class="list">
+   <li class="list__item">
+   <div class="list-card-price">
+     <div class="list-card-price__left">
+      <div class="list-card-price__title">Discounted Product</div>
+      <div class="list-card-price__id">123458-01-234</div>
+      <div class="list-card-price__detail list-card-price__detail--hide">optional details</div>
+     </div>
+     <div class="list-card-price__right">
+      <div class="list-card-price__price"> 27.00</div>
+      <div class="list-card-price__original-price"> 30.00</div>
+     </div>
+  </div>
+    </li>
+    <li class="list__item">
+     <div class="list-card-price">
+       <div class="list-card-price__left">
+        <div class="list-card-price__title">Discounted Product</div>
+        <div class="list-card-price__id">123458-01-234</div>
+        <div class="list-card-price__detail list-card-price__detail--hide">optional details</div>
+       </div>
+       <div class="list-card-price__right">
+        <div class="list-card-price__price"> 27.00</div>
+        <div class="list-card-price__original-price"> 30.00</div>
+       </div>
+    </div>
+    </li>
+    <li class="list__item list__item--selected">
+      <div class="list-card-price">
+       <div class="list-card-price__left">
+        <div class="list-card-price__title">Discounted Product</div>
+        <div class="list-card-price__id">123458-01-234</div>
+        <div class="list-card-price__detail list-card-price__detail--hide">optional details</div>
+       </div>
+       <div class="list-card-price__right">
+        <div class="list-card-price__price"> 27.00</div>
+        <div class="list-card-price__original-price"> 30.00</div>
+       </div>
+    </div>
+    </li>
+    <li class="list__item">
+    <div class="list-card-price">
+       <div class="list-card-price__left">
+        <div class="list-card-price__title">Discounted Product</div>
+        <div class="list-card-price__id">123458-01-234</div>
+        <div class="list-card-price__detail list-card-price__detail--hide">optional details</div>
+       </div>
+       <div class="list-card-price__right">
+        <div class="list-card-price__price"> 27.00</div>
+        <div class="list-card-price__original-price"> 30.00</div>
+       </div>
+    </div>
+    </li>
+  </ul>
+```
+
+*/
+.list__item {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+  min-height: 60px; }
+
+.list__item--selected {
+  background: #f2f2f2;
+  border-left: 4px solid #0466ca; }
+
+/*doc
+---
+title: List Cards
+name: list-cards
+category: Components
+parent: list
+---
+
+Any of the following list-cards below can be included inside a [list][list] item.
+
+```html_example
+<div class="list-card-price">
+   <div class="list-card-price__left">
+    <div class="list-card-price__title">Discounted Product</div>
+    <div class="list-card-price__id">123458-01-234</div>
+    <div class="list-card-price__detail list-card-price__detail--hide">optional details</div>
+   </div>
+   <div class="list-card-price__right">
+    <div class="list-card-price__price">27.00</div>
+    <div class="list-card-price__original-price">30.00</div>
+   </div>
+</div>
+```
+
+###Modifiers
+`list-card-price--hide`
+can be used on any element inside a `list-card-price` item to hide details
+
+
+
+
+*/
+.list-card-price {
+  width: 100%;
+  padding: 8px 0 5px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+.list-card-price--hide {
+  display: none; }
+
+.list__item--selected .list-card-price__left {
+  margin-left: -4px; }
+
+.list-card-price__left {
+  flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  padding-left: 16px; }
+
+.list-card-price__right {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  text-align: right;
+  padding-right: 48px;
+  padding-left: 5px; }
+
+.list-card-price__title {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1;
+  padding-bottom: 5px; }
+
+.list-card-price__id {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #999999;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25; }
+
+.list-card-price__detail {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #999999;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25; }
+
+.list-card-price__price {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1;
+  padding-bottom: 5px; }
+
+.list-card-price__original-price {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 16px;
+  color: #999999;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25;
+  text-decoration: line-through; }
+
+/*doc
+---
+title: Title Bar
+name: title-bar
+category: Components
+---
+
+Below are described the title bar element that should be used in In-Store applications. Next there are the combinations of scenarios possible.
+
+###**Note**: It is UX and product management's responsibility to ensure the title is never too long, if this happens inform them to rewrite the copy.
+### Scenario-1: Title long
+
+```html_example
+<div class="title-bar">
+  <div class="title-bar__action-area title-bar__action-area--left">
+          <button class="title-bar__button title-bar__button--left button button--flat">
+           <i class="title-bar__button-icon title-bar__button-icon--left button__icon i i--caret-left "></i>
+          </button>
+  </div>
+  <h1 class="title-bar__title"> title page title page title page title page title page title page title page title page title page</h1>
+  <div class="title-bar__action-area title-bar__action-area--right">
+          <button class="title-bar__button title-bar__button--right button button--flat ">
+            <i class="title-bar__button-icon title-bar__button-icon--right button__icon  i i--caret-right"></i>
+          </button>
+  </div>
+</div>
+```
+
+
+### Scenario-2: Title centered
+
+```html_example
+<div class="title-bar">
+  <div class="title-bar__action-area title-bar__action-area--left">
+          <button class="title-bar__button title-bar__button--left button button--flat">
+           <i class="title-bar__button-icon title-bar__button-icon--left button__icon i i--caret-left "></i>
+          </button>
+  </div>
+  <h1 class="title-bar__title">Gift Card</h1>
+  <div class="title-bar__action-area title-bar__action-area--right">
+          <button class="title-bar__button title-bar__button--right button button--flat ">
+            <i class="title-bar__button-icon title-bar__button-icon--right button__icon  i i--caret-right"></i>
+          </button>
+  </div>
+</div>
+```
+
+
+### Scenario-3: Multiple buttons
+
+```html_example
+<div class="title-bar">
+  <div class="title-bar__action-area title-bar__action-area--left">
+          <button class="title-bar__button title-bar__button--left button button--flat">
+           <i class="title-bar__button-icon title-bar__button-icon--left button__icon i i--caret-left "></i>
+          </button>
+  </div>
+  <h1 class="title-bar__title">Login Page</h1>
+  <div class="title-bar__action-area title-bar__action-area--right">
+          <button class="title-bar__button title-bar__button--right button button--flat ">
+            Cancel
+          </button>
+          <button class="title-bar__button title-bar__button--right button button--flat ">
+            Print
+          </button>
+  </div>
+</div>
+```
+
+### Scenario-4: Border bottom
+
+```html_example
+<div class="title-bar title-bar--border">
+  <div class="title-bar__action-area title-bar__action-area--left">
+          <button class="title-bar__button title-bar__button--left button button--flat">
+           <i class="title-bar__button-icon title-bar__button-icon--left button__icon i i--caret-left "></i>
+          </button>
+  </div>
+  <h1 class="title-bar__title">Payments</h1>
+  <div class="title-bar__action-area title-bar__action-area--right">
+          <button class="title-bar__button title-bar__button--right button button--flat ">
+            <i class="title-bar__button-icon title-bar__button-icon--right button__icon  i i--caret-right"></i>
+          </button>
+  </div>
+</div>
+```
+*/
+.title-bar {
+  position: relative;
+  height: 40px; }
+
+.title-bar__action-area {
+  position: absolute;
+  top: 0px;
+  height: 40px; }
+
+.title-bar__action-area--left {
+  left: 0; }
+
+.title-bar__action-area--right {
+  right: 0; }
+
+.title-bar--border {
+  border-bottom: 1px solid #cccccc; }
+
+.title-bar__title {
+  font-family: 'sf_ui_displaylight', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 20px;
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  margin: 0; }
+
+/*-- Buttons--*/
+.title-bar__button {
+  height: 40px;
+  line-height: 40px;
+  padding-top: 0;
+  text-transform: none;
+  letter-spacing: normal; }
+
+.title-bar__button-icon--right {
+  padding-right: 0px;
+  padding-left: 8px; }
+
+/*doc
+---
+title: Action Bar
+name: action-bar
+category: Components
+---
+
+Action bar that should be used in In-Store applications.
+
+### Three icon buttons component
+
+```html_example
+<div class='action-bar'>
+  <div class='action-bar__button'>
+    <button class='button button--flat'>
+      <i class='button__icon i i--scan i--b1'></i>entry
+    </button>
+  </div>
+  <div class='action-bar__button'>
+    <button class='button button--flat'>
+      <i class='button__icon i i--refresh i--b1'></i>return
+    </button>
+  </div>
+  <div class='action-bar__button'>
+    <button class='button button--flat'>
+      <i class='button__icon i i--add i--b1'></i>extras
+    </button>
+  </div>
+</div>
+```
+
+### Entry component
+
+```html_example
+<div class="form-field action-bar__entry">
+  <div class="action-bar__entry__container">
+      <div class="form-field action-bar__entry__col">
+        <input type="text" class="action-bar__entry__input" id="action-bar__input" placeholder="Enter SKU" value=""/>
+        <button id="action-bar__entry__button" class="action-bar__entry__clear__button button button--flat">
+          <i class="i i--clear i--g3 i--14"></i>
+        </button>
+      </div>
+      <div class="action-bar__entry__col">
+        <button class="form-field__button button button--tertiary" type="submit">
+          <i class="button__icon"></i>submit
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+*/
+.action-bar {
+  background-color: #f2f2f2;
+  height: 44px;
+  padding: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center; }
+
+.action-bar__button {
+  display: inline-block;
+  width: 100%; }
+
+.action-bar__button:first-child {
+  text-align: left; }
+
+.action-bar__button:last-child {
+  text-align: right; }
+
+.action-bar__entry__container {
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  display: inline-flex;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.action-bar__entry__container .action-bar__entry__input {
+  font-family: 'sf_ui_textregular', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  color: #999999;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.25;
+  height: 30px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  padding-left: 8px;
+  width: 99%;
+  color: #333333;
+  border: none;
+  border-bottom: 1px solid #666666;
+  border-radius: 0;
+  box-shadow: none; }
+
+.action-bar__entry__input:focus {
+  color: #333333; }
+
+.action-bar__entry__input[value=""] ~ .action-bar__entry__clear__button {
+  display: none; }
+
+.action-bar__entry__col {
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+.action-bar__entry__col:first-child {
+  margin-left: 16px;
+  margin-bottom: 0;
+  display: inline;
+  flex-grow: 1; }
+
+.action-bar__entry__clear__button {
+  padding-left: 6px;
+  padding-right: 6px;
+  right: 8px;
+  position: absolute;
+  z-index: 1; }
+
+.action-bar__entry__main {
+  visibility: hidden; }
+
+/*doc
+---
+title: Color Classes
+name: color-classes
+category: Style-Mixin
+---
+
+### Background Colors
+
+```html_example_table
+<div class="bg--gn1">gn1</div>
+<div class="bg--b1">b1</div>
+<div class="bg--y1">y1</div>
+<div class="bg--r1">r1</div>
+<div class="bg--g1">g1</div>
+<div class="bg--g2">g2</div>
+<div class="bg--g3">g3</div>
+<div class="bg--g4">g4</div>
+<div class="bg--g5">g5</div>
+<div class="bg--wh">wh</div>
+<div class="bg--tr">tr</div>
+```
+
+
+### Font Colors
+```html_example_table
+<div class="font--gn1">gn1</div>
+<div class="font--b1">b1</div>
+<div class="font--y1">y1</div>
+<div class="font--r1">r1</div>
+<div class="font--g1">g1</div>
+<div class="font--g2">g2</div>
+<div class="font--g3">g3</div>
+<div class="font--g4">g4</div>
+<div class="font--g5">g5</div>
+<div class="font--wh">wh</div>
+<div class="font--tr">tr</div>
+```
+
+*/
+.bg--gn1 {
+  background: #16a816; }
+
+.bg--b1 {
+  background: #0466ca; }
+
+.bg--y1 {
+  background: #f0b00b; }
+
+.bg--r1 {
+  background: #d00000; }
+
+.bg--g1 {
+  background: #333333; }
+
+.bg--g2 {
+  background: #666666; }
+
+.bg--g3 {
+  background: #999999; }
+
+.bg--g4 {
+  background: #cccccc; }
+
+.bg--g5 {
+  background: #f2f2f2; }
+
+.bg--wh {
+  background: #ffffff; }
+
+.bg--tr {
+  background: transparent; }
+
+.font--gn1 {
+  color: #16a816; }
+
+.font--b1 {
+  color: #0466ca; }
+
+.font--y1 {
+  color: #f0b00b; }
+
+.font--r1 {
+  color: #d00000; }
+
+.font--g1 {
+  color: #333333; }
+
+.font--g2 {
+  color: #666666; }
+
+.font--g3 {
+  color: #999999; }
+
+.font--g4 {
+  color: #cccccc; }
+
+.font--g5 {
+  color: #f2f2f2; }
+
+.font--wh {
+  color: #ffffff; }
+
+.font--tr {
+  color: transparent; }
+
+.color-sample {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 20px; }
+
+.color-sample.gn1 {
+  background-color: #16a816; }
+
+.color-sample.b1 {
+  background-color: #0466ca; }
+
+.color-sample.y1 {
+  background-color: #f0b00b; }
+
+.color-sample.r1 {
+  background-color: #d00000; }
+
+.color-sample.g1 {
+  background-color: #333333; }
+
+.color-sample.g2 {
+  background-color: #666666; }
+
+.color-sample.g3 {
+  background-color: #999999; }
+
+.color-sample.g4 {
+  background-color: #cccccc;
+  color: black; }
+
+.color-sample.g5 {
+  background-color: #f2f2f2;
+  color: black; }
+
+.color-sample.wh {
+  background-color: #ffffff;
+  color: black;
+  border: 1px black solid; }
+
+.color-sample.gn1-shade {
+  background-color: #138f13; }
+
+.color-sample.b1-shade {
+  background-color: #0357ac; }
+
+.color-sample.y1-tint {
+  background-color: #f6d06d; }
+
+.color-sample.r1-tint {
+  background-color: #e36666; }
+
+.block {
+  width: 40px;
+  height: 10px;
+  background-color: #0466ca; }
+
+.height-xxxl {
+  background: #0466ca;
+  width: 40px;
+  height: 64px; }
+
+.height-xxl {
+  background: #0466ca;
+  width: 40px;
+  height: 48px; }
+
+.height-xl {
+  background: #0466ca;
+  width: 40px;
+  height: 32px; }
+
+.height-l {
+  background: #0466ca;
+  width: 40px;
+  height: 20px; }
+
+.height-m {
+  background: #0466ca;
+  width: 40px;
+  height: 16px; }
+
+.height-s {
+  background: #0466ca;
+  width: 40px;
+  height: 8px; }
+
+.height-xs {
+  background: #0466ca;
+  width: 40px;
+  height: 5px; }
+
+.height-xxs {
+  background: #0466ca;
+  width: 40px;
+  height: 1px; }
+
+.height-0 {
+  background: #0466ca;
+  width: 40px;
+  height: 0; }
+
+#padder-example,
+#p1, #p2, #p3, #p4, #p5, #p6 {
+  border: 1px solid #0466ca; }
+
+.padder-parent {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #f0b00b;
+  overflow: hidden; }
+
+.padder-parent .padder--m {
+  border: 1px solid #0466ca; }
+
+#btn-mod-padded,
+#btn-mod-stacked,
+#btn-mod-paired {
+  border: 1px solid #0466ca; }
+
+#signature-demo-wrapper {
+  display: none; }
+
+#sticky-header {
+  display: none;
+  background: #f2f2f2;
+  height: 100px; }
+
+#sticky-right {
+  display: none;
+  background: #f2f2f2;
+  width: 500px; }
+
+#summary-bar-demo {
+  display: none; }

@@ -8,6 +8,22 @@ angular.module('hello', [ 'ngRoute' ]).config(function($routeProvider, $httpProv
 		templateUrl : 'login.html',
 		controller : 'navigation',
 		controllerAs: 'controller'
+	}).when('/scan', {
+		templateUrl : 'views/scan.html',
+		controller : 'ScanCtrl',
+		controllerAs: 'controller'
+	}).when('/share', {
+		templateUrl : 'views/share.html',
+		controller : 'ShareCtrl',
+		controllerAs: 'controller'
+	}).when('/upload', {
+		templateUrl : 'views/upload.html',
+		controller : 'UploadCtrl',
+		controllerAs: 'controller'
+	}).when('/vote', {
+		templateUrl : 'views/vote.html',
+		controller : 'VoteCtrl',
+		controllerAs: 'controller'
 	}).otherwise('/');
 
 	$httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
